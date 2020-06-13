@@ -8,8 +8,10 @@
   3. Create a new branch --> ```git checkout -b <your-name>```
   4. Add, commit, push:
     ```
-    git add .
+    git add . 
+
     git commit -m "Initial Commit"
+    
     git push -u origin <your-branch>
     ```
 

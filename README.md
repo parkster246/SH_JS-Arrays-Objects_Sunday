@@ -7,12 +7,8 @@
   2. Clone the repo to your local system --> ```git clone <url>```
   3. Create a new branch --> ```git checkout -b <your-name>```
   4. Add, commit, push:
-    ```
-    git add . 
-
-    git commit -m "Initial Commit"
-    
-    git push -u origin <your-branch>
-    ```
+    ```git add . ```
+    ```git commit -m "Initial Commit"```
+    ```git push -u origin <your-branch>```
 
 ### Challenges used in this project can be found on [Edabit](https://edabit.com/challenges/javascript)

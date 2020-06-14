@@ -4,12 +4,12 @@
 /* -------------------------------------------------------------------------- */
 
 const books = ['Ariel', 'blink', 'salt', 'crucial conversations', 'Strong Motion', 'At Home']
-// ! Console log 'Strong Motion' from the books array.
+// ? Console log 'Strong Motion' from the books array.
 
 
 
 const numbers = [5, 2, 3, [6, 34], 23]
-// ! Console.log 34 from the numbers array.
+// ? Console.log 34 from the numbers array.
 
 
 /* -------------------------------------------------------------------------- */
@@ -21,13 +21,13 @@ const people = [
   { name: 'Stephanie', hobbies: ['gardening', 'surfing'], petName: 'Jafaar', 'favorite dish': 'burgers' },
   { name: 'Daniel', hobbies: ['writing', 'reading poetry'], petName: 'Monty', 'favorite dish': 'everything' }
 ]
-// ! Console log Stephanie's pet snake's name
+// ? Console log Stephanie's pet snake's name
 // console.log("Stephanie's Snake's Name --> ", )
 
-// ! Console log Randall's favorite dish
+// ? Console log Randall's favorite dish
 // console.log("Randall's Favorite Dish --> ", )
 
-// ! Console log Daniel's second favorite hobby
+// ? Console log Daniel's second favorite hobby
 // console.log("Daniel's Second Hobby --> ", )
 
 
@@ -35,14 +35,14 @@ const people = [
 /*                        Function: What is a function?                       */
 /* -------------------------------------------------------------------------- */
 
-// ! Create a function called multiply that takes in two parameters: arr and num
+// ? Create a function called multiply that takes in two parameters: arr and num
 
 
 /* -------------------------------------------------------------------------- */
 /*                        for-loop: What is a for-loop?                       */
 /* -------------------------------------------------------------------------- */
 
-// ! Using the function created above, pass in the following arr, an integer, and output the new multiplied array. Use a for-loop!
+// ? Using the function created above, pass in the following arr, an integer, and output the new multiplied array. Use a for-loop!
 
 const multiplyThese = [6, 34, 25, 4, 67, 345, 124, 976]
 

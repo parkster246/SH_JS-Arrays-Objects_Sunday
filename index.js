@@ -42,7 +42,7 @@ const multiplyThese = [6, 34, 25, 4, 67, 345, 124, 976]
 
 
 
-// TODO: Check if an Array Contains a Given Number
+// TODO: Check if an Array Contains a Given Number --> Return a True or False
 const check1 = [1, 2, 3, 4, 5]
 const check2 = [1, 1, 2, 1, 1]
 const check3 = [[5, 5, [5], 6], 5]

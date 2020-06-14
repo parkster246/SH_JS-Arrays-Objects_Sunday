@@ -1,7 +1,7 @@
 
-
-
-// REVIEW: What is an Array?
+/* -------------------------------------------------------------------------- */
+/*                          Arrays: What is an Array?                         */
+/* -------------------------------------------------------------------------- */
 
 const books = ['Ariel', 'blink', 'salt', 'crucial conversations', 'Strong Motion', 'At Home']
 // ! Console log 'Strong Motion' from the books array.
@@ -12,8 +12,9 @@ const numbers = [5, 2, 3, [6, 34], 23]
 // ! Console.log 34 from the numbers array.
 
 
-
-// REVIEW: What is an Object?
+/* -------------------------------------------------------------------------- */
+/*                         Objects: What is an Object?                        */
+/* -------------------------------------------------------------------------- */
 
 const people = [
   { name: 'Randall', hobbies: ['listening to music', 'working on his car'], petName: 'Max', 'favorite dish': 'spaghetti' },
@@ -30,13 +31,16 @@ const people = [
 // console.log("Daniel's Second Hobby --> ", )
 
 
-// REVIEW: What is a function?
+/* -------------------------------------------------------------------------- */
+/*                        Function: What is a function?                       */
+/* -------------------------------------------------------------------------- */
 
 // ! Create a function called multiply that takes in two parameters: arr and num
 
 
-
-// REVIEW: What is a for-loop?
+/* -------------------------------------------------------------------------- */
+/*                        for-loop: What is a for-loop?                       */
+/* -------------------------------------------------------------------------- */
 
 // ! Using the function created above, pass in the following arr, an integer, and output the new multiplied array. Use a for-loop!
 
@@ -44,7 +48,10 @@ const multiplyThese = [6, 34, 25, 4, 67, 345, 124, 976]
 
 
 
-// TODO: Check if an Array Contains a Given Number --> Return a True or False
+/* -------------------------------------------------------------------------- */
+/*   Task 1: Check if an Array Contains a Given Number --> Return a boolean   */
+/* -------------------------------------------------------------------------- */
+
 const check1 = [1, 2, 3, 4, 5]
 const check2 = [1, 1, 2, 1, 1]
 const check3 = [[5, 5, [5], 6], 5]
@@ -57,16 +64,20 @@ function check(arr, num) {
 // console.log('Array Contains Given Number --> ', check(check3, 5))
 
 
+/* -------------------------------------------------------------------------- */
+/*             Task 2: Convert Number to Corresponding Month Name             */
+/* -------------------------------------------------------------------------- */
 
-//TODO: Convert Number to Corresponding Month Name
 function monthName(num) {
   return num
 }
 // console.log('Corresponding Month Name --> ', monthName(2))
 
 
+/* -------------------------------------------------------------------------- */
+/*              Task 3: Add a word ending to every item in array              */
+/* -------------------------------------------------------------------------- */
 
-//TODO: Add a word ending to every item in array
 const strArr1 = ['copy', 'read', 'cook']
 
 function addEnding(arr, str) {
@@ -75,8 +86,10 @@ function addEnding(arr, str) {
 // console.log('Add Ending --> ', addEnding(strArr1, 'ing'))
 
 
+/* -------------------------------------------------------------------------- */
+/*                  Task 4: Find total sum of items in array                  */
+/* -------------------------------------------------------------------------- */
 
-//TODO: Find total sum of items in array
 const sum1 = [1, 2, 3, 4, 5]
 const sum2 = [2, 7, 34, 6, 23, 74, 56, 234, 6747, 3, 12452, 0]
 
@@ -87,7 +100,9 @@ function sumArray(arr) {
 
 
 
-
+/* -------------------------------------------------------------------------- */
+/*                                  Task 5:                                  */
+/* -------------------------------------------------------------------------- */
 // TODO: Create a function called get20s that takes an array as an argument and returns an array with names of artists who lived in the 20th century
 
 const artists = [
@@ -295,12 +310,16 @@ const artists = [
 
 
 
-// TODO: Get Sum of People's Budget
+/* -------------------------------------------------------------------------- */
+/*                     Task 6: Get Sum of People's Budget                     */
+/* -------------------------------------------------------------------------- */
+
 const budget1 = [
   { name: "John", age: 21, budget: 23000 },
   { name: "Steve", age: 32, budget: 40000 },
   { name: "Martin", age: 16, budget: 2700 }
 ] // your answer should output 65700
+
 
 function getBudgets(arr) {
 
@@ -310,7 +329,9 @@ function getBudgets(arr) {
 // console.log('Get Budgets --> ', getBudgets(budget1))
 
 
-
+/* -------------------------------------------------------------------------- */
+/*                                   Task 7                                   */
+/* -------------------------------------------------------------------------- */
 
 // TODO: Create a function called 'randomize' that takes a data array as an argument and returns the same array in randomized order
 

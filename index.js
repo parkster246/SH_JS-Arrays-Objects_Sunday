@@ -49,8 +49,18 @@ const multiplyThese = [6, 34, 25, 4, 67, 345, 124, 976]
 
 
 /* -------------------------------------------------------------------------- */
+/*                               Method Chaining                              */
+/* -------------------------------------------------------------------------- */
+// ? Use method chaining to split, alphabetize and console log length of the following String
+
+let dougLinder = "A good programmer is someone who looks both ways before crossing a one-way street."
+// console.log(dougLinder)
+
+
+/* -------------------------------------------------------------------------- */
 /*   Task 1: Check if an Array Contains a Given Number --> Return a boolean   */
 /* -------------------------------------------------------------------------- */
+
 
 const check1 = [1, 2, 3, 4, 5]
 const check2 = [1, 1, 2, 1, 1]

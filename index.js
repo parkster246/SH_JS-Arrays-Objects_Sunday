@@ -16,16 +16,18 @@ const numbers = [5, 2, 3, [6, 34], 23]
 // REVIEW: What is an Object?
 
 const people = [
-  { name: 'Randall', hobbies: ['listening to music', 'working on his car'], petName: 'Max' },
-  { name: 'Stephanie', hobbies: ['gardening', 'surfing'], petName: 'Jafaar' },
-  { name: 'Daniel', hobbies: ['writing', 'reading poetry'], petName: 'Monty' }
+  { name: 'Randall', hobbies: ['listening to music', 'working on his car'], petName: 'Max', 'favorite dish': 'spaghetti' },
+  { name: 'Stephanie', hobbies: ['gardening', 'surfing'], petName: 'Jafaar', 'favorite dish': 'burgers' },
+  { name: 'Daniel', hobbies: ['writing', 'reading poetry'], petName: 'Monty', 'favorite dish': 'everything' }
 ]
 // ANCHOR: Console log Stephanie's pet snake's name
-// console.log("Stephanie's Snake's Name --> ",)
+// console.log("Stephanie's Snake's Name --> ", )
+
+// ANCHOR: Console log Randall's favorite dish
+// console.log("Randall's Favorite Dish --> ", )
 
 // ANCHOR: Console log Daniel's second favorite hobby
-// console.log("Daniel's Second Hobby --> ",)
-
+// console.log("Daniel's Second Hobby --> ", )
 
 
 // REVIEW: What is a function?

@@ -10,5 +10,6 @@
     ```git add . ``` -> ->
     ```git commit -m "Initial Commit"``` -> -> 
     ```git push -u origin <your-branch>``` 
+  5. **Optional**- Download [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) and [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors) extensions 
 
 ### Challenges used in this project can be found on [Edabit](https://edabit.com/challenges/javascript)

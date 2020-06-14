@@ -4,31 +4,31 @@
 /* -------------------------------------------------------------------------- */
 
 const books = ['Ariel', 'blink', 'salt', 'crucial conversations', 'Strong Motion', 'At Home']
-// ? Console log 'Strong Motion' from the books array.
-
+//console.log(books[4])
+ 
 
 
 const numbers = [5, 2, 3, [6, 34], 23]
-// ? Console.log 34 from the numbers array.
+//console.log(numbers[3][1])
 
 
 /* -------------------------------------------------------------------------- */
 /*                         Objects: What is an Object?                        */
 /* -------------------------------------------------------------------------- */
 
-const people = [
-  { name: 'Randall', hobbies: ['listening to music', 'working on his car'], petName: 'Max', 'favorite dish': 'spaghetti' },
-  { name: 'Stephanie', hobbies: ['gardening', 'surfing'], petName: 'Jafaar', 'favorite dish': 'burgers' },
-  { name: 'Daniel', hobbies: ['writing', 'reading poetry'], petName: 'Monty', 'favorite dish': 'everything' }
-]
+//const people = [
+ // { name: 'Randall', hobbies: ['listening to music', 'working on his car'], petName: 'Max', 'favorite dish': 'spaghetti' },
+//  { name: 'Stephanie', hobbies: ['gardening', 'surfing'], petName: 'Jafaar', 'favorite dish': 'burgers' },
+//  { name: 'Daniel', hobbies: ['writing', 'reading poetry'], petName: 'Monty', 'favorite dish': 'everything' }
+//]
 // ? Console log Stephanie's pet snake's name
-// console.log("Stephanie's Snake's Name --> ", )
+// console.log("Stephanie's Snake's Name --> ",people[1].petName)
 
 // ? Console log Randall's favorite dish
-// console.log("Randall's Favorite Dish --> ", )
+// console.log("Randall's Favorite Dish --> ",people[0]['favorite dish'] )
 
 // ? Console log Daniel's second favorite hobby
-// console.log("Daniel's Second Hobby --> ", )
+// console.log("Daniel's Second Hobby --> ",people[2].hobbies[1] )
 
 
 /* -------------------------------------------------------------------------- */
@@ -36,7 +36,9 @@ const people = [
 /* -------------------------------------------------------------------------- */
 
 // ? Create a function called multiply that takes in two parameters: arr and num
-
+ //function multiply(arr, num);{
+ // return
+// }
 
 /* -------------------------------------------------------------------------- */
 /*                        for-loop: What is a for-loop?                       */
@@ -44,9 +46,15 @@ const people = [
 
 // ? Using the function created above, pass in the following arr, an integer, and output the new multiplied array. Use a for-loop!
 
-const multiplyThese = [6, 34, 25, 4, 67, 345, 124, 976]
-
-
+//const multiplyThese = [6, 34, 25, 4, 67, 345, 124, 976]
+//let multiplied = []
+//function multiply(arr, num){
+  //for(i=0; i< arr.length; i++){
+    //multiplied.push(arr[1] * num)
+ // }
+ // return multiplied
+//}
+//console.log(multiply(multiplyThese, 2));
 
 /* -------------------------------------------------------------------------- */
 /*                               Method Chaining                              */
@@ -54,6 +62,11 @@ const multiplyThese = [6, 34, 25, 4, 67, 345, 124, 976]
 // ? Use method chaining to split, alphabetize and console log length of the following String
 
 let dougLinder = "A good programmer is someone who looks both ways before crossing a one-way street."
+let split = dougLinder.split(' ')
+let inOrder = split.sort()
+let length =inOrder.length
+let chain = dougLinder.split(' ').sort().length
+//console.log(chain)
 // console.log(dougLinder)
 
 
@@ -68,8 +81,14 @@ const check3 = [[5, 5, [5], 6], 5]
 
 function check(arr, num) {
   // HINT: If you plan on using the for-loop, "concatenate" the nested arrays
+for(i = 0; i < arr.length; i++){
+  if(arr[i]===num){
 
-  return arr
+  
+  return true
+}
+}
+  return false
 }
 // console.log('Array Contains Given Number --> ', check(check3, 5))
 
@@ -78,9 +97,11 @@ function check(arr, num) {
 /*             Task 2: Convert Number to Corresponding Month Name             */
 /* -------------------------------------------------------------------------- */
 
-function monthName(num) {
-  return num
-}
+//function monthName(num) {
+  // const months = ['january', 'febraury', 'march', 'april', 'may', 'june']
+  // can use a switch statement
+// return num
+//}
 // console.log('Corresponding Month Name --> ', monthName(2))
 
 
@@ -91,9 +112,14 @@ function monthName(num) {
 const strArr1 = ['copy', 'read', 'cook']
 
 function addEnding(arr, str) {
-  return arr
+  let result = '';
+  for(i = 0; i < arr.length; i++){
+    result = arr[i]
+    result += str
+  }
+  return result
 }
-// console.log('Add Ending --> ', addEnding(strArr1, 'ing'))
+ // console.log('Add Ending --> ', addEnding(strArr1, 'ing'))
 
 
 /* -------------------------------------------------------------------------- */
@@ -104,9 +130,13 @@ const sum1 = [1, 2, 3, 4, 5]
 const sum2 = [2, 7, 34, 6, 23, 74, 56, 234, 6747, 3, 12452, 0]
 
 function sumArray(arr) {
-  return arr
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++){
+    sum += arr[i]
+  }
+  return sum
 }
-// console.log('Sum of Array --> ', sumArray(sum1))
+ console.log('Sum of Array --> ', sumArray(sum1))
 
 
 
@@ -317,7 +347,16 @@ const artists = [
     "paintings": 328
   }
 ]
-
+function get20s(artists){
+let arr = []
+for(let counter = 0; counter < artists.length; counter++){
+  if(artists[counter].years.includes(19)){
+    arr.push(artists[counter].name)
+  }
+}
+return arr
+}
+ console.log(get20s(artists))
 
 
 /* -------------------------------------------------------------------------- */
@@ -332,11 +371,14 @@ const budget1 = [
 
 
 function getBudgets(arr) {
-
-  return arr
+  let sum = 0;
+for(let i = 0; i < arr.length; i++){
+  sum += arr[i].budget
+}
+  return sum
 }
 
-// console.log('Get Budgets --> ', getBudgets(budget1))
+ console.log('Get Budgets --> ', getBudgets(budget1))
 
 
 /* -------------------------------------------------------------------------- */
@@ -348,7 +390,15 @@ function getBudgets(arr) {
 const random1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 function randomize(arr) {
-  return arr
+  let randomized= []
+  let index;
+  let length = arr.length
+  for(let i = 0; i < length; i++){
+    index = Math.floor(Math.random() * (arr.length - 0) + 0)
+randomized.push(arr[index])
+arr.splice(index, 1)
+  } 
+  return randomized
 }
 
-// console.log('Randomized --> ', randomize(random1))
+ console.log('Randomized --> ', randomize(random1))

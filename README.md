@@ -11,5 +11,7 @@
     ```git commit -m "Initial Commit"``` -> -> 
     ```git push -u origin <your-branch>``` 
   5. **Optional**- Download [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) and [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors) extensions 
+  6. **Optional**- Download **Node** and **npm**: [Windows](https://www.guru99.com/download-install-node-js.html) || [MacOS](https://medium.com/@soufianerafik/how-to-install-nodejs-on-macos-catalina-441364c3a8fb)
+  7. **Optional**- Download [nodemon](https://nodemon.io/)
 
 ### Challenges used in this project can be found on [Edabit](https://edabit.com/challenges/javascript)

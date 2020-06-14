@@ -293,6 +293,22 @@ const artists = [
 
 
 
+// TODO: Get Sum of People's Budget
+const budget1 = [
+  { name: "John", age: 21, budget: 23000 },
+  { name: "Steve", age: 32, budget: 40000 },
+  { name: "Martin", age: 16, budget: 2700 }
+] // your answer should output 65700
+
+function getBudgets(arr) {
+
+  return arr
+}
+
+// console.log('Get Budgets --> ', getBudgets(budget1))
+
+
+
 
 // TODO: Create a function called 'randomize' that takes a data array as an argument and returns the same array in randomized order
 
